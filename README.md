@@ -1,6 +1,4 @@
 ```python
-from typing import Tuple, List, Dict
-
 class rimaout:
     pass
 
@@ -32,6 +30,14 @@ class Attributes(rimaout):
         environment = ['Visual Studio Code', 'NVIM']
 
         return skills, environment
+
+    def public_work(self) -> Dict[str, str]:
+        work_links = {
+                'uni_notes': '',
+                'lates_projct': 'Link to Work 1'
+            }
+
+        return work_links
 
 ```
 
