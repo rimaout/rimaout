@@ -1,16 +1,37 @@
-### Hi there 👋
+```python
+from typing import Tuple, List, Dict
 
-<!--
-**rimaout/rimaout** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class rimaout:
+    pass
 
-Here are some ideas to get you started:
+class Attributes(rimaout):
+    @property
+    def contact(self) -> Tuple[str, str, str, str]:
+        discord  = "YourDiscordUsername"
+        telegram = "YourTelegramUsername"
+        linkedin = "YourLinkedInProfile"
+        email    = "YourEmail"
+        
+        return discord, telegram, linkedin, email
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    @property
+    def personal(self) -> Tuple[List[str], List[str], int]:
+        uni = ['Sapienza Rome', 'Computer Science'] 
+        languages = ['English', 'Italian']
+        age   = 21
+        
+        return uni, languages, age
+    
+    @property
+    def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str]]:
+        skills = {
+            'expert'      : [None],
+            'intermediate': ['Python'],
+            'learning'    : ['Java', 'Rust']
+        }
+        environment = ['Visual Studio Code', 'NVIM']
+
+        return skills, environment
+
+```
+
