@@ -1,8 +1,11 @@
 ```python
+from typing import Tuple, List, Dict
+
 class rimaout:
     pass
 
 class Attributes(rimaout):
+
     @property
     def contact(self) -> Tuple[str, str]:
         matrix  = "@rimaout:matrix.org"
@@ -11,7 +14,7 @@ class Attributes(rimaout):
         return matrix, email
 
     @property
-    def personal(self) -> Tuple[List[str], List[str], int]:
+    def life(self) -> Tuple[List[str], List[str], int]:
         uni   = ['Sapienza Rome', 'Computer Science'] 
         langs = ['English', 'Italian']
         age   = 21
