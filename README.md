@@ -19,7 +19,7 @@ class Attributes(rimaout):
     def life(self) -> Tuple[List[str], List[str], int]:
         uni   = ['Sapienza Rome', 'Computer Science'] 
         langs = ['English', 'Italian']
-        age   = 21
+        age   = 20
         
         return uni, langs, age
     
