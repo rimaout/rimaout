@@ -4,21 +4,19 @@ class rimaout:
 
 class Attributes(rimaout):
     @property
-    def contact(self) -> Tuple[str, str, str, str]:
-        discord  = "YourDiscordUsername"
-        telegram = "YourTelegramUsername"
-        linkedin = "YourLinkedInProfile"
-        email    = "YourEmail"
+    def contact(self) -> Tuple[str, str]:
+        matrix  = "@rimaout:matrix.org"
+        email   = "oettam.do@tuta.io"
         
-        return discord, telegram, linkedin, email
+        return matrix, email
 
     @property
     def personal(self) -> Tuple[List[str], List[str], int]:
-        uni = ['Sapienza Rome', 'Computer Science'] 
-        languages = ['English', 'Italian']
+        uni   = ['Sapienza Rome', 'Computer Science'] 
+        langs = ['English', 'Italian']
         age   = 21
         
-        return uni, languages, age
+        return uni, langs, age
     
     @property
     def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str]]:
@@ -27,14 +25,15 @@ class Attributes(rimaout):
             'intermediate': ['Python'],
             'learning'    : ['Java', 'Rust']
         }
-        environment = ['Visual Studio Code', 'NVIM']
+        tools = ['Visual Studio Code', 'Obsidian']
 
-        return skills, environment
+        return skills, tools
 
+    @property
     def public_work(self) -> Dict[str, str]:
         work_links = {
-                'uni_notes': '',
-                'lates_projct': 'Link to Work 1'
+                'uni_notes'    : 'https://notesinpublic.xyz',
+                'lates_projct' : 'https://github.com/rimaout/flac2mp3'
             }
 
         return work_links
