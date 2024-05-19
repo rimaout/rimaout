@@ -37,7 +37,7 @@ class Attributes(rimaout):
     @property
     def public_work(self) -> Dict[str, str]:
         work_links = {
-                'uni_notes'    : 'https://notesinpublic.xyz',
+                'uni_notes'      : 'https://notesinpublic.xyz',
                 'latest_project' : 'https://github.com/rimaout/flac2mp3'
             }
 
