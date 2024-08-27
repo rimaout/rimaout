@@ -44,4 +44,4 @@ class Attributes(rimaout):
         return work_links
 
 ```
-
+<img align="center" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTVvY2F4eGszeWNxOG5nZnRqd3VxNnNzMHd4dnY5dWt2MG1nNXd1eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0amJzVHIAfl7jMDos/giphy.gif" /></p> 
