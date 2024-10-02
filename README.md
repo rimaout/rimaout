@@ -27,10 +27,10 @@ class Attributes(rimaout):
     def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str]]:
         skills = {
             'expert'      : [None],
-            'intermediate': ['Python'],
-            'learning'    : ['Java', 'Rust']
+            'intermediate': ['Python', 'java'],
+            'learning'    : ['Rust']
         }
-        tools = ['Visual Studio Code', 'Obsidian']
+        tools = ['nvim', 'Obsidian']
 
         return skills, tools
 
