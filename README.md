@@ -10,8 +10,9 @@ class Attributes(rimaout):
 
     @property
     def contact(self) -> Tuple[str, str]:
-        matrix  = "@rimaout:matrix.org"
-        email   = "oettam.do@tuta.io"
+        matrix   = "@rimaout:matrix.org"
+        email    = "oettam.do@tuta.io"
+        telegram = "@rimaout"
         
         return matrix, email
 
